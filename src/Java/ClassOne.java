@@ -2,6 +2,7 @@ package Java;
 
 public class ClassOne {
 
+	// Exampl3 Class
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ClassTwo.methodOfClassTwo();
