@@ -3,10 +3,13 @@ package com.testing.practice.old;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.testng.annotations.Test;
+
 public class Adding2ArrayList {
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
+	@Test
+	public static void test() {
 		// TODO Auto-generated method stub
 
 		List<String> list1 = new ArrayList();
@@ -25,6 +28,9 @@ public class Adding2ArrayList {
 		list1.add("Bhatnagar1");
 		list1.addAll(3, list1);
 		
+		for (int i=0; i<list1.size(); i++) {
+			System.out.println(list1.get(i));
+		}
 	}
 
 }
