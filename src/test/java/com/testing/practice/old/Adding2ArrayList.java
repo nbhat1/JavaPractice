@@ -26,7 +26,8 @@ public class Adding2ArrayList {
 		list1.add("Neeraj1");
 		list1.add("Kumar1");
 		list1.add("Bhatnagar1");
-		list1.addAll(3, list1);
+		list1.addAll(4, list1);
+		//list1.addAll(index, c)
 		
 		for (int i=0; i<list1.size(); i++) {
 			System.out.println(list1.get(i));

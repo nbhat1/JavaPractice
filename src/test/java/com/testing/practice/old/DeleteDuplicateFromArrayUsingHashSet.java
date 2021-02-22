@@ -6,11 +6,13 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.testng.annotations.Test;
+
 public class DeleteDuplicateFromArrayUsingHashSet {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	@Test
+	public static void deleteDuplicate() {
+		// TODO Auto-generated method stub		
 		Integer [] list = {1,2,3,2,4};
 		Set<Integer> myset = new HashSet<Integer>();
 		Collections.addAll(myset, list);

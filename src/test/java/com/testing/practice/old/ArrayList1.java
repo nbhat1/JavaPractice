@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.testng.annotations.Test;
+
 public class ArrayList1 {
 
-	public static void main(String[] args) {
+	@Test
+	public static void testArrayList() {
 		// TODO Auto-generated method stub
 		
 		List<String> list = new ArrayList<String>();
@@ -14,13 +17,12 @@ public class ArrayList1 {
 		list.add("Name");
 		list.add("Neeraj");
 	
-		list.addAll(list);
+		//list.addAll(list);
 		
-		System.out.println(	list.get(1));
+		System.out.println("Element in list at first place is " + 	list.get(0));
 		
 		for(int i=0;i<list.size();i++){
-			System.out.println(	list.get(i));
-			System.out.println(	list.get(i));
+			System.out.println(	"Element at location " + i + "\n" + list.get(i));
 		}
 		
 		Iterator<String> itr = list.iterator();
