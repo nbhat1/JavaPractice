@@ -10,17 +10,17 @@ import org.testng.annotations.Test;
 
 public class DeleteDuplicateFromArrayUsingHashSet {
 
-	@Test
-	public static void deleteDuplicate() {
-		// TODO Auto-generated method stub		
-		Integer [] list = {1,2,3,2,4};
-		Set<Integer> myset = new HashSet<Integer>();
-		Collections.addAll(myset, list);
-		Iterator<Integer> itr = myset.iterator();
-		while(itr.hasNext()){
-			System.out.println(itr.next());
-		}
-		
-	}
+    @Test
+    public static void deleteDuplicate() {
+        // TODO Auto-generated method stub
+        Integer[] list = {1, 2, 3, 2, 4};
+        Set<Integer> myset = new HashSet<Integer>();
+        Collections.addAll(myset, list);
+        Iterator<Integer> itr = myset.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
+    }
 
 }
