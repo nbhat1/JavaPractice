@@ -1,4 +1,4 @@
-package com.testing.java.collection.misc;
+package com.testing.java.core;
 
 public class AssignmentOperator {
 

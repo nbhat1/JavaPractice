@@ -1,4 +1,4 @@
-package com.testing.java.collection.misc;
+package com.testing.java.core;
 
 import org.testng.annotations.Test;
 
@@ -13,7 +13,9 @@ public class TernaryOperator {
 	 */
 	public static void main(String[] args) {
 		boolean x;
-		x = (5 > 4) ? true : false;
+		int y = 5;
+		int z = 4;
+		x = (y > z) ? true : false;
 		System.out.println(x);
 	}
 
